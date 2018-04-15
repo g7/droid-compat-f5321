@@ -1,0 +1,31 @@
+#!/bin/bash
+#
+# Triggers the installation of the icon content requiring jolla-store
+# authentication.
+#
+
+TRIES=10
+
+install() {
+	pkcon repo-set-data customer-jolla refresh-now true
+	pkcon install sailfish-content-graphics-jolla-z1.25
+
+	return $?
+}
+
+# Allow for the system to boot
+sleep 300
+
+current_try=0
+while [ $current_try < $TRIES ]; do
+	if grep "credentials-store" /etc/ssu/ssu.ini &> /dev/null; then
+		install
+		exit
+	else
+		let current_try=current_try+1
+		sleep 300
+	fi
+done
+
+# Let's try the next time
+exit 1

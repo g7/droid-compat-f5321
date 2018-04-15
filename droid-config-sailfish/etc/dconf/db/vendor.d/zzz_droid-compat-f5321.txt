@@ -1,0 +1,27 @@
+# From https://gitlab.com/Manizuca/droid-config-f5321/
+
+# lipstick-configs.txt
+[lipstick/screen/primary]
+physicalDotsPerInch=320
+width=720
+height=1280
+
+# silica-configs.txt
+[desktop/sailfish/silica]
+theme_pixel_ratio=1.25
+theme_icon_subdir='z1.25'
+icon_size_launcher=172 # FIXME
+
+# jolla-camera-hw.txt
+[apps/jolla-camera/secondary/image]
+imageResolution='2592x1944'
+videoResolution='1920x1080'
+imageResolution_4_3='2592x1944'
+imageResolution_16_9='2592x1458'
+resolutionText_4_3='camera_settings-me-4-3-5m'
+resolutionText_16_9='camera_settings-me-16-9-2m'
+
+[apps/jolla-camera/secondary/video]
+imageResolution='2592x1944'
+videoResolution='1920x1080'
+

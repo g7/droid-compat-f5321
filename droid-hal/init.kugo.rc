@@ -1,0 +1,4 @@
+# Use an import rather than a symlink so that we can specify
+# adaptation-specific init events if needed.
+
+import init.suzu.rc

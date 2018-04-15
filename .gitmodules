@@ -1,0 +1,3 @@
+[submodule "droid-compat-device"]
+	path = droid-compat-device
+	url = https://github.com/g7/droid-compat-device.git

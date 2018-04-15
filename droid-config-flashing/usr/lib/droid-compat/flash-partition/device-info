@@ -1,0 +1,21 @@
+# From https://gitlab.com/Manizuca/droid-config-f5321
+
+CPUCHECK_STRING="Qualcomm Technologies, Inc MSM8956"
+
+# Because of flash-partition checks 1 needs to be defined
+# Others can go with parition numbers
+PART_1="modem"
+PART_11="aboot"
+PART_32="splash"
+PART_33="boot"
+PART_35="cache"
+PART_52="system"
+
+PART_REAL_1="mmcblk0p24"
+PART_REAL_11="mmcblk0p11"
+PART_REAL_32="mmcblk0p32"
+PART_REAL_33="mmcblk0p33"
+PART_REAL_35="mmcblk0p35"
+PART_REAL_52="mmcblk0p52"
+
+PART_I="1 11 32 33 35 52"
