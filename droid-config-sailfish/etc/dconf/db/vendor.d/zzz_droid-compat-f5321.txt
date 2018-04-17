@@ -10,7 +10,7 @@ height=1280
 [desktop/sailfish/silica]
 theme_pixel_ratio=1.25
 theme_icon_subdir='z1.25'
-icon_size_launcher=172 # FIXME
+icon_size_launcher=0
 
 # jolla-camera-hw.txt
 [apps/jolla-camera/secondary/image]
