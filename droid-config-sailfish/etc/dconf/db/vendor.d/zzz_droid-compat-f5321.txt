@@ -13,15 +13,21 @@ theme_icon_subdir='z1.25'
 icon_size_launcher=0
 
 # jolla-camera-hw.txt
+[apps/jolla-camera/primary/image]
+viewfinderResolution='640x480'
+viewfinderResolution_4_3='640x480'
+viewfinderResolution_16_9='1280x720'
+
 [apps/jolla-camera/secondary/image]
 imageResolution='2592x1944'
-videoResolution='1920x1080'
 imageResolution_4_3='2592x1944'
 imageResolution_16_9='2592x1458'
-resolutionText_4_3='camera_settings-me-4-3-5m'
-resolutionText_16_9='camera_settings-me-16-9-2m'
+viewfinderResolution_4_3='640x480'
+viewfinderResolution_16_9='1280x720'
+
+[apps/jolla-camera/primary/video]
+viewfinderResolution='1280x720'
 
 [apps/jolla-camera/secondary/video]
 imageResolution='2592x1944'
-videoResolution='1920x1080'
-
+viewfinderResolution='1280x720'
