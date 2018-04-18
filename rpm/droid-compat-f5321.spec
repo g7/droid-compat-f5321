@@ -16,6 +16,8 @@
 %define divert_flash_partition_device_info 1
 %define custom_flash_partition_device_info_path "/usr/lib/droid-compat/flash-partition/device-info"
 
+%define divert_system 1
+
 %define dtb_package droid-devicetree-f5321
 
 %include droid-compat-device/droid-compat-device.inc
