@@ -17,6 +17,7 @@
 %define custom_flash_partition_device_info_path "/usr/lib/droid-compat/flash-partition/device-info"
 
 %define divert_system 1
+%define divert_system_override_copy "/usr/lib/droid-compat/system/etc/sensors/sensor_def_qcomdev.conf"
 
 %define dtb_package droid-devicetree-f5321
 
