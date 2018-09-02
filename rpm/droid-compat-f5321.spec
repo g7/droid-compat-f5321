@@ -29,6 +29,7 @@
 
 %package hybris-libsensorfw-qt5
 Summary: Quirks for hybris-libsensorfw-qt5
+Requires: rpm-divert
 Requires: hybris-libsensorfw-qt5
 
 %description hybris-libsensorfw-qt5
