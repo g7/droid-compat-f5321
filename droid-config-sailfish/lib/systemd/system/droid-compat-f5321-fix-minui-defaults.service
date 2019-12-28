@@ -1,0 +1,11 @@
+[Unit]
+Description=(droid-compat-f5321) Fix MinUI default scaling
+
+[Service]
+# TODO: switch to ExecCondition once an updated systemd lands
+# in Sailfish OS
+Type=oneshot
+ExecStart=/bin/sh -c '/usr/bin/test /usr/share/sailfish-minui/images/default -ef /usr/share/sailfish-minui/images/z1.25 || /bin/ln -sfn /usr/share/sailfish-minui/images/z1.25 /usr/share/sailfish-minui/images/default'
+
+[Install]
+WantedBy=basic.target
